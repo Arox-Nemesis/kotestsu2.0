@@ -1,1 +1,1 @@
-worker: python3 main.py
+web: python3 -m http.server 8080 & python3 main.py
